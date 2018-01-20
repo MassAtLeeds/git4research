@@ -6,6 +6,10 @@ install_r:
 
 r_github_packages:
   - MassAtLeeds/git4research
+  
+script:
+  - R CMD INSTALL ../geocompr/
+  - make html
 
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
