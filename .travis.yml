@@ -8,7 +8,7 @@ r_github_packages:
   - MassAtLeeds/git4research
   
 script:
-  - R CMD INSTALL ../geocompr/
+  # - R CMD INSTALL ../git4research/ # don't think this is needed
   - make html
 
 after_success:
