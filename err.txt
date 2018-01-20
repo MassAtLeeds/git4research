@@ -1,0 +1,3 @@
+From https://github.com/MassAtLeeds/git4research
+ * [new branch]      gh-pages   -> upstream/gh-pages
+ * [new branch]      master     -> upstream/master
