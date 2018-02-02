@@ -1,5 +1,5 @@
 --- 
-title: "GitHub for Reproducible Research and Collaboration"
+title: "Git for Reproducible Research"
 author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
